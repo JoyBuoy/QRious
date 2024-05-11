@@ -12,7 +12,8 @@ os.makedirs(output_folder, exist_ok=True)
 # Generate QR codes for each entry
 for index, row in df.iterrows():
     # Construct the data to encode in the QR code
-    data = f"Thank you for finding me!\nI belong to:\nUser Name: {row['User Name']}\nEmail: {row['Email']}"
+    data = f"Thank you for finding me!\nI belong to:\nUser Name: {row['User Name']}\nEmail: {row['Email']}\nPhone: {row['Phone']}\n"
+
 
     # Generate the QR code
     qr = qrcode.QRCode(version=1, box_size=10, border=5)
