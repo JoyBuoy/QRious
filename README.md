@@ -1,4 +1,4 @@
-# QRious
+#  🔳 QRious
 QRious is a Python script for generating QR codes from user information stored in an Excel file.
 
 ## Features
